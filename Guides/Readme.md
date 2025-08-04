@@ -1,4 +1,4 @@
-#A quick guide for Starting DSA series
+# A quick guide for Starting DSA series
 
 
 Hello! This is Shaurya , I'll be guiding you how can you start your journey in mastering DSA.
@@ -11,7 +11,7 @@ These problems are nescessary because-
 2. **Builds Logical Thinking-**- These problems helps coders to build logical reasoning to solve a problem, which is cruital for solving the problem structurally.
 3. **Important for Coding interviews-**- Tech companies like Google, Microsoft, Amazon, Infosys, TCS, etc., test your DSA skills to check how well you can think logically and solve problems.
 
-##HOW TO START DSA
+## HOW TO START DSA
 
 **PLATFORMS THAT I PERSONALLY USE** 
 1. Neetcode- This is a very good site to get a decent roadmap for whatever you are preparing for , let it be companies , coding compeditions etc.It also has a interactive roadmap which can help you track your progress.
