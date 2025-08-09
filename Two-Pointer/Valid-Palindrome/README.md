@@ -1,40 +1,49 @@
-# LeetCode 680 – Valid Palindrome II
-
-**OUR SCORE**-EASY-MEDIUM
+# LeetCode 125 – Valid Palindrome
+**OUR SCORE**- Easy
 ## 📝 Problem Statement
-Given a string `s`, return `true` if the string can be a palindrome after deleting **at most one character**.
+Given a string `s`, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
 
-A palindrome is a string that reads the same backward as forward.
-
-**Example:**
-nput: s = "abca"
-Output: true
-**Explanation**: Remove 'b' to make "aca", which is a palindrome.
-
+A palindrome is a word, phrase, or sequence that reads the same backward as forward, after ignoring spaces, punctuation, and letter case.
 
 ---
 
-## ⏳ Time Complexity
-- **O(n)** — We traverse the string once, and at most do **two more traversals** when checking for palindrome in the helper function.
+## ⏱ Time Complexity
+- **O(n)** – We traverse the string once with two pointers.
 
 ## 📦 Space Complexity
-- **O(1)** — No extra data structures are used.
+- **O(1)** – Constant space used (no extra data structure).
 
 ---
 
-## 💡 Approach
+### Example 1
+**Input:**
+s = "A man, a plan, a canal: Panama"= without spaces="Amanaplanacanal"
+**Output:**
+true ,as the reverse ="amanaplanacanal"
+**Explanation:**
+After removing non-alphanumeric characters and ignoring case, `amanaplanacanalpanama` is a palindrome.
+### Example 2
+**Input:**
+s = "race a car"
+**Output:**
+false
+**Explanation:**
+After cleaning, `raceacar` is not the same as its reverse.
 
-### 1. Two Pointers
-We use **two pointers**:
-- `left` starts from the beginning of the string.
-- `right` starts from the end.
+---
 
-### 2. Checking for Palindrome
-- If `s[left] == s[right]`, move both pointers inward.(it means left+1,right-1){-> <-}
-- If a mismatch is found:
-  - Skip the character at `left` and check if the rest is a palindrome.(it means left+1, right)
-  - Skip the character at `right` and check if the rest is a palindrome.(it means left, right-1)
-- If **either** skipping left **or** right results in a palindrome, return `true`.
+## 💡 Approach & Logic
+
+1. **Two-pointer method**:
+   - Use two pointers, `left` at the start and `right` at the end of the string.
+   - Move pointers inward while skipping non-alphanumeric characters.
+   - Compare lowercase versions of characters at both ends.
+   - If all characters match, it is a palindrome.
+
+2. **Character Filtering**:
+   - Use `isalnum()` to check if a character is alphanumeric.
+   - Use `isalpha()` to check the alphabet only.
+   - Use `tolower()` to make comparison case-insensitive or the ascii code to change it manually.
 
 ---
 
