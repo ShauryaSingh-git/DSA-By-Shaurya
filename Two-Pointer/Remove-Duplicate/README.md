@@ -25,6 +25,7 @@ You must do this using **O(1)** extra space.
 
 ---
 ## Visualization
+```
 1. arr=     [1     2      2 ]
 pointer=         unique
                    i         
@@ -33,6 +34,7 @@ pointer=         unique
 pointer=             unique 
                        i         
 - it is not a valid situation as index 1 and 2 is  having same elements which is 2 so unique will not get incremented and element will get ignored
+```
 
 ---
 

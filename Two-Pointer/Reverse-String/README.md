@@ -36,12 +36,14 @@ This ensures the string is reversed **in-place** without extra memory.
 
 ---
 ## Visual representation
-
+```
 1. arr=      {H   E   L   L   O}
    Pointers=  i               j    (swap and move inwards) 
 2. arr=      {O   E   L   L   H}
    Pointers=      i       j         (swap and move inwards)   
 3. arr=      {O   L   L   O   H}
     and the middle l where i=j is same so we do not need to swap it as it is a single character.
+```
+
 ---
 
