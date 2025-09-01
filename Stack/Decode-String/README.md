@@ -9,46 +9,39 @@ Difficulty-Medium-Hard
 Given an encoded string, return its decoded version.  
 The encoding rule is: `k[encoded_string]`, where the `encoded_string` inside the square brackets is repeated exactly `k` times.  
 Note: `k` is guaranteed to be a positive integer.
+
 ---
 
 ### Example 1:
 **Input:**  
 s = "3[a]2[bc]"
 
-makefile
-Copy code
 **Output:**  
 "aaabcbc"
 
-makefile
-Copy code
+
 ---
 
 ### Example 2:
 **Input:**  
 s = "3[a2[c]]"
 
-makefile
-Copy code
+
 
 **Output:**  
 "accaccacc"
 
-makefile
-Copy code
 
 ---
 ### Example 3:
 **Input:**  
 s = "2[abc]3[cd]ef"
 
-makefile
-Copy code
+
 **Output:**  
 "abcabccdcdcdef"
 
-csharp
-Copy code
+
 
 ---
 
