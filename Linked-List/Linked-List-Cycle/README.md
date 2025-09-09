@@ -1,6 +1,12 @@
-# 🔁 Linked List Cycle Detection (C++)
+# 🔁 Linked List Cycle Detection 
 
-This project implements **Cycle Detection in a Linked List** using the **Floyd’s Cycle Detection Algorithm (Tortoise and Hare method)**.  
+[View Problem No-141](https://leetcode.com/problems/linked-list-cycle/description/)
+
+Difficulty-Medium
+
+---
+
+This Section implements **Cycle Detection in a Linked List** using the **Floyd’s Cycle Detection Algorithm (Tortoise and Hare method)**.  
 The goal is to detect if a given singly linked list has a cycle.
 
 ---
