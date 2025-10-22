@@ -21,13 +21,14 @@ Given the root of a Binary Search Tree (BST) and a value `val`, insert `val` int
 
 ```mermaid
 flowchart TD
-    A[Start at root] --> B{Is node NULL?}
-    B -- Yes --> C[Create new node with val, return it]
+    A(Start at root) --> B{Is node NULL?}
+    B -- Yes --> C(Create new node with val, return it)
     B -- No --> D{val < node->val?}
-    D -- Yes --> E[`node->left = insert(node->left, val)`]
-    D -- No --> F[`node->right = insert(node->right, val)`]
-    E --> G[Return node]
+    D -- Yes --> E("node->left = insert(node->left, val)")
+    D -- No --> F("node->right = insert(node->right, val)")
+    E --> G(Return node)
     F --> G
+
 ```
 
 ## Complexity
