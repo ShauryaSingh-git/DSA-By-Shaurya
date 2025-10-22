@@ -24,8 +24,8 @@ flowchart TD
     A[Start at root] --> B{Is node NULL?}
     B -- Yes --> C[Create new node with val, return it]
     B -- No --> D{val < node->val?}
-    D -- Yes --> E[Recurse on left: node->left = insert(node->left, val)]
-    D -- No --> F[Recurse on right: node->right = insert(node->right, val)]
+    D -- Yes --> E[`node->left = insert(node->left, val)`]
+    D -- No --> F[`node->right = insert(node->right, val)`]
     E --> G[Return node]
     F --> G
 ```
