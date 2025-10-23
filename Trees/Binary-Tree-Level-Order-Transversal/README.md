@@ -1,7 +1,7 @@
 # Binary Tree Level Order Traversal
 
 - [Problem No-701](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-- **Difficulty:** Easy
+- **Difficulty:** Medium
 
 ## Problem Statement
 
